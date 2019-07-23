@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My website second page</title>
+    <link rel="stylesheet"  type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1>Tables and forms</h1>
+  <div class="intro">
+    <h3>Table showing what I've learned in the CodeClan pre-course work</h3>
+
+    <table>
+      <tr>
+        <th>Skill/area of knowledge</th>
+        <th>What I've done</th>
+        <th>My thoughts</th>
+      </tr>
+      <tr>
+        <td>Ruby</td>
+        <td>CodeCademy course</td>
+        <td>I roughly get it, and I'm confident that I'm in a good place to start the CodeClan Software Development course</td>
+      </tr>
+      <tr>
+        <td>Git and GitHub</td>
+        <td>CodeCademy course</td>
+        <td>I get the point of it, and I could do the exercises, but I want to see it in action. I need to see how and when to use it.</td>
+      </tr>
+      <tr>
+        <td>HTML and CSS</td>
+        <td>CodeCademy courses</td>
+        <td>It seems easy, but is very fiddly. I will keep practising on my own, but I imagine progress will be slow.</td>
+      </tr>
+    </table><br><br>
+  </div>
+  <div class="questions">
+      <h3>Example of a form</h3>
+
+<!-- freetext form-->
+<!--       <form action="submitted_form.html" method="POST" target="_blank"> -->
+      <form action="submitted_form.html" method="POST" target="_blank">
+        <label for="comments">Please give some comments: <label>
+      <br>
+       <!-- <input id="comments" type="text" name="comments" required> -->
+        <textarea id="comments" name="comments" rows="5" cols="30">
+        </textarea>
+      <br>
+      <br>
+        <section>
+          <label for="satisfaction">How satisfied are you with this website?</label>
+      <br>
+          <span>Hated it</span>
+
+            <input id="satisfaction" name="satisfaction" type="range" min="1" max="3" step="1">
+          <span>Loved it!</span>
+      <br>
+      <br>
+
+<!-- a dropdown list -->
+
+        <label for="lunch">What's your favourite subject in the course so far?</label>
+        <select id="favourite-subject" name="favourite-subject">
+          <option value="ruby">Ruby</option>
+          <option value="github">GitHub</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </select>
+        <br>
+        <br>
+         <input type="submit" value="Submit your response">
+       </form>
+       <br>
+       <br>
+<!-- still want to add dropdown option and tick boxes -->
+<!-- adds radio buttons
+       <span>Yes or No: </span>
+                 <input id="yes" type="radio" name="answer" required>
+                   <label for="yes">Yes</label>
+                 <input id="no" type="radio" name="answer" required>
+                   <label for="no">No</label>
+-->
+
+<!-- adds number selector
+                   <label for="num-1">Number: <label>
+                             <input id="num-1" type="number" name="num-1" required>
+-->
+  </div>
+
+  </body>
+
+  <footer>
+    <br>
+    <a href="first_page.html">Go to first page</a>
+  </footer>
+</html>

@@ -1,0 +1,106 @@
+body {
+  background-color: #faebd7;
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+}
+
+h1 {
+  position: fixed;
+  z-index: 1;
+  background-color: #7fffd4;
+  width: 70%;
+  border-bottom: 2px solid #000080;
+  margin-top: 0;
+}
+
+.intro {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: left;
+  width: 70%;
+  position: relative;
+	top: 50px;
+  display:inline-block;
+}
+
+img {
+  display:inline-block; /* or should I justify right? */
+  opacity: 0.6;
+}
+
+.summary {
+  display: inline-block;
+  background-color: #6495ed;
+  width: 70%;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: left;
+
+}
+li {
+  /*font-family: 'Oswald', sans-serif; */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.5;
+
+  /* width: 80px; */
+}
+
+
+/* for the second_page */
+
+
+/* for the table */
+table {
+  border-collapse: collapse;
+  border: 3px outset black;
+  width: 70%;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 20px;
+}
+
+th {
+  background-color: #6495ed;
+}
+td, th {
+  border: 2px outset black;
+}
+
+tr:nth-child(even) {
+  background-color: HoneyDew;
+}
+
+tr:nth-child(odd) {
+  background-color: Beige;
+}
+/* for the forms */
+.questions {
+  background-color: #6495ed;
+  position: relative;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: left
+  top: 50px;
+  display:inline-block;
+}
+
+
+/* want to add styling to the link */
+footer {
+position: static;
+}
+
+/* for the submitted_form */
+.thanks {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 2rem;
+}
