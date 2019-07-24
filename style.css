@@ -11,46 +11,92 @@ h1 {
   width: 70%;
   border-bottom: 2px solid #000080;
   margin-top: 0;
+  box-sizing: border-box;
 }
 
 .intro {
   background-color: #DBE9EE;
   box-sizing: border-box;
-  padding: 40px;
-  text-align: left;
+  padding: 10px;
   width: 70%;
   position: relative;
-	top: 50px;
-  display:inline-block;
+	margin-top: 20px;
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 img {
-  display:inline-block; /* or should I justify right? */
+  display: inline-block;
+  box-sizing: content-box;
   opacity: 0.6;
+  padding: 10px;
+  float: left;
 }
 
+.intro p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.intro li {
+  text-transform: uppercase;
+  margin-left: 200px;
+}
+
+
+.quotes {
+  background-color: #ffb6c1;
+  box-sizing: border-box;
+  width: 70%;
+  padding: 20px;
+  position: relative;
+
+}
+
+button {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.quotes p {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* want to add styling to the link */
+.contacts {
+  text-align: justify;
+  padding: 20px;
+}
+
+
+/*
 .summary {
   display: inline-block;
   background-color: #6495ed;
+  color: #ffffff;
   width: 70%;
+  position: relative;
 }
 
 ul {
   margin: 30px auto;
   padding: 0 20px;
   text-align: left;
-
 }
+
 li {
-  /*font-family: 'Oswald', sans-serif; */
-  color: #ffffff;
+  /*font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 1.5;
 
-  /* width: 80px; */
+  /* width: 80px;
 }
+*/
+
 
 
 /* for the second_page */
@@ -86,17 +132,12 @@ tr:nth-child(odd) {
   position: relative;
   width: 70%;
   box-sizing: border-box;
-  padding: 40px;
-  text-align: left
+  padding: 20px;
+  text-align: left;
   top: 50px;
   display:inline-block;
 }
 
-
-/* want to add styling to the link */
-footer {
-position: static;
-}
 
 /* for the submitted_form */
 .thanks {
